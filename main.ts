@@ -1,3 +1,6 @@
+input.onButtonPressed(Button.A, function () {
+    basic.showString("Thomas")
+})
 basic.showString("Mark")
 basic.forever(function () {
     basic.showIcon(IconNames.Happy)
